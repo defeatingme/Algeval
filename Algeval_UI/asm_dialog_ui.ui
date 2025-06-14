@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Confirmation</class>
+ <widget class="QDialog" name="Confirmation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>540</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(48, 48, 48, 255), stop:1 rgba(64, 64, 64, 255))</string>
+  </property>
+  <widget class="QPushButton" name="push_forbid">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>490</y>
+     <width>151</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color:  rgb(224, 224, 224);
+    background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0  rgba(48, 48, 48, 255), stop:1 rgba(64, 64, 64, 255));
+    border: 1px solid rgb(152, 152, 160);
+    border-bottom: 2px solid rgb(88, 88, 96);
+    border-radius: 4px
+    }
+    QPushButton:disabled {
+    background-color: rgb(48, 48, 48);
+    color:  rgb(128, 128, 128);
+    border: 1px solid rgb(128, 128, 128);
+    }
+    QPushButton:hover {
+    color:  rgb(224, 224, 224);
+    border: 1px solid rgb(175, 192, 220);
+    }
+    QPushButton:pressed {
+    background-color:  rgb(208, 172, 220);
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+    font-weight: bold;
+    }</string>
+   </property>
+   <property name="text">
+    <string>No, forbid it</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="push_allow">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>490</y>
+     <width>151</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color:  rgb(224, 224, 224);
+    background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0  rgba(48, 48, 48, 255), stop:1 rgba(64, 64, 64, 255));
+    border: 1px solid rgb(152, 152, 160);
+    border-bottom: 2px solid rgb(88, 88, 96);
+    border-radius: 4px
+    }
+    QPushButton:disabled {
+    background-color: rgb(48, 48, 48);
+    color:  rgb(128, 128, 128);
+    border: 1px solid rgb(128, 128, 128);
+    }
+    QPushButton:hover {
+    color:  rgb(224, 224, 224);
+    border: 1px solid rgb(175, 192, 220);
+    }
+    QPushButton:pressed {
+    background-color:  rgb(208, 172, 220);
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+    font-weight: bold;
+    }</string>
+   </property>
+   <property name="text">
+    <string>Yes, allow it</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_prob_num">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>701</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>12</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 48, 48);
+color: rgb(224, 224, 224);
+border: 1px solid rgb(208, 172, 220);
+</string>
+   </property>
+   <property name="text">
+    <string>Problem #: Alternative solution method used different from answer key</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QWebEngineView" name="web_ak_latex" native="true">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>80</y>
+     <width>341</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(64, 64, 64, 255), stop:1 rgba(48, 48, 48, 255));
+border: 1px solid rgb(208, 172, 220);
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_ak_latex">
+   <property name="geometry">
+    <rect>
+     <x>15</x>
+     <y>50</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 48, 48);
+color: rgb(224, 224, 224);
+border: 1px solid rgb(208, 172, 220);
+</string>
+   </property>
+   <property name="text">
+    <string>Answer key:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_has_latex">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>50</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(48, 48, 48);
+color: rgb(224, 224, 224);
+border: 1px solid rgb(208, 172, 220);
+</string>
+   </property>
+   <property name="text">
+    <string>Compared solution:</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+   </property>
+  </widget>
+  <widget class="QWebEngineView" name="web_has_latex" native="true">
+   <property name="geometry">
+    <rect>
+     <x>365</x>
+     <y>80</y>
+     <width>341</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(64, 64, 64, 255), stop:1 rgba(48, 48, 48, 255));
+border: 1px solid rgb(208, 172, 220);
+</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_question">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>701</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+     <bold>false</bold>
+     <underline>false</underline>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0 rgba(40, 40, 40, 255), stop:1 rgba(56, 56, 56, 255));
+border: 1px solid rgb(175, 192, 220);
+border-radius: 2px;
+color: rgb(224, 224 224);</string>
+   </property>
+   <property name="text">
+    <string>            The solution has an Alternative Method used correctly. Do you want to allow it?(Y/N)</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignmentFlag::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="push_cancel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>500</y>
+     <width>151</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color:  rgb(224, 224, 224);
+    background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:1, y2:0, stop:0  rgba(48, 48, 48, 255), stop:1 rgba(64, 64, 64, 255));
+    border: 1px solid rgb(152, 152, 160);
+    border-bottom: 2px solid rgb(88, 88, 96);
+    border-radius: 4px
+    }
+    QPushButton:disabled {
+    background-color: rgb(48, 48, 48);
+    color:  rgb(128, 128, 128);
+    border: 1px solid rgb(128, 128, 128);
+    }
+    QPushButton:hover {
+    color:  rgb(224, 224, 224);
+    border: 1px solid rgb(175, 192, 220);
+    }
+    QPushButton:pressed {
+    background-color:  rgb(208, 172, 220);
+    color: rgb(224, 224, 224);
+    border: 1px solid rgb(224, 224, 224);
+    font-weight: bold;
+    }</string>
+   </property>
+   <property name="text">
+    <string>Cancel checking</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <zorder>push_forbid</zorder>
+  <zorder>push_allow</zorder>
+  <zorder>label_prob_num</zorder>
+  <zorder>web_ak_latex</zorder>
+  <zorder>web_has_latex</zorder>
+  <zorder>label_has_latex</zorder>
+  <zorder>label_ak_latex</zorder>
+  <zorder>label_question</zorder>
+  <zorder>push_cancel</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QWebEngineView</class>
+   <extends>QWidget</extends>
+   <header>QtWebEngineWidgets/QWebEngineView</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
