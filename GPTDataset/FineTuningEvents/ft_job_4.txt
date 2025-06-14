@@ -1,0 +1,345 @@
+FineTuningJobEvent(id='ftevent-LBQmAij6Fs0BFzrAaR2ePfsw', created_at=1743051207, level='info', message='The job has successfully completed', object='fine_tuning.job.event', data={}, type='message') 
+
+FineTuningJobEvent(id='ftevent-5o0V92KIQMUMK5DdOBFmgUS3', created_at=1743051189, level='info', message='New fine-tuned model created', object='fine_tuning.job.event', data={}, type='message')       
+
+FineTuningJobEvent(id='ftevent-rpLKodU8t7usQJrZ7vLcCcih', created_at=1743051189, level='info', message='Checkpoint created at step 110', object='fine_tuning.job.event', data={}, type='message')
+
+FineTuningJobEvent(id='ftevent-DlgEiAEfGgx63G85BmL1R6Wm', created_at=1743051189, level='info', message='Checkpoint created at step 55', object='fine_tuning.job.event', data={}, type='message')
+
+FineTuningJobEvent(id='ftevent-4E3pkxYiI0xhRPC7NpKkAZDX', created_at=1743051171, level='info', message='Step 165/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 165, 'train_loss': 0.009845360182225704, 'total_steps': 165, 'train_mean_token_accuracy': 0.9970760345458984}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-JCBIkacwDl4cPNP2Mv0EL51W', created_at=1743051171, level='info', message='Step 164/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 164, 'train_loss': 0.0024592841509729624, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-pIo4gcZxL6VYzE5DsgfPwVHe', created_at=1743051169, level='info', message='Step 163/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 163, 'train_loss': 0.0002277208404848352, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ieBim4SN4XDwT1CsRTo5afP7', created_at=1743051167, level='info', message='Step 162/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 162, 'train_loss': 0.003380724461749196, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-lYGDgznAoT4ecxdEbXaoZ924', created_at=1743051165, level='info', message='Step 161/165: training loss=0.09', object='fine_tuning.job.event', data={'step': 161, 'train_loss': 0.09445527195930481, 'total_steps': 165, 'train_mean_token_accuracy': 0.9825436472892761}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-x5xEw4fCnk9oCBy81PQhOshZ', created_at=1743051163, level='info', message='Step 160/165: training loss=0.06', object='fine_tuning.job.event', data={'step': 160, 'train_loss': 0.06283414363861084, 'total_steps': 165, 'train_mean_token_accuracy': 0.9913544654846191}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-wNlsAwss8MQdjbOWQKr9TwSQ', created_at=1743051160, level='info', message='Step 159/165: training loss=0.19', object='fine_tuning.job.event', data={'step': 159, 'train_loss': 0.18557961285114288, 'total_steps': 165, 'train_mean_token_accuracy': 0.9550321102142334}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-kNDwlpDcK9jz1gvixzpABBqW', created_at=1743051160, level='info', message='Step 158/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 158, 'train_loss': 0.041732385754585266, 'total_steps': 165, 'train_mean_token_accuracy': 0.9944444298744202}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ZpUwOwQsXOgl6rjRE7Ra1XFq', created_at=1743051158, level='info', message='Step 157/165: training loss=0.03', object='fine_tuning.job.event', data={'step': 157, 'train_loss': 0.0335858128964901, 'total_steps': 165, 'train_mean_token_accuracy': 0.9918434023857117}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-NlEfajRduffS8aCmgKGV9o5l', created_at=1743051156, level='info', message='Step 156/165: training loss=0.23', object='fine_tuning.job.event', data={'step': 156, 'train_loss': 0.2265433669090271, 'total_steps': 165, 'train_mean_token_accuracy': 0.9482200741767883}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-tnkiedreSeUfVEs3GPVrNvGM', created_at=1743051154, level='info', message='Step 155/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 155, 'train_loss': 0.00018898276903200895, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-fdfYRVF0VVB0G4Tno7pQOE7P', created_at=1743051154, level='info', message='Step 154/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 154, 'train_loss': 0.0195472352206707, 'total_steps': 165, 'train_mean_token_accuracy': 0.9890260696411133}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-8X3jAIhDhH26MWz7IFK0ca46', created_at=1743051152, level='info', message='Step 153/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 153, 'train_loss': 0.00017895906057674438, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-LS0nhfXLg3Y7DttZtZDVE0rg', created_at=1743051150, level='info', message='Step 152/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 152, 'train_loss': 0.014347723685204983, 'total_steps': 165, 'train_mean_token_accuracy': 0.9934782385826111}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-f3WOQihBMBdANiM6IDGIDNDV', created_at=1743051148, level='info', message='Step 151/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 151, 'train_loss': 0.002262372523546219, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-YiPKjLb2Q6nttrhNfjrnkp4e', created_at=1743051146, level='info', message='Step 150/165: training loss=0.10', object='fine_tuning.job.event', data={'step': 150, 'train_loss': 0.10433823615312576, 'total_steps': 165, 'train_mean_token_accuracy': 0.9793577790260315}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Mnv8az3fdvyJ4sV7vM2WsHgA', created_at=1743051146, level='info', message='Step 149/165: training loss=0.06', object='fine_tuning.job.event', data={'step': 149, 'train_loss': 0.058881666511297226, 'total_steps': 165, 'train_mean_token_accuracy': 0.9893993139266968}, type='metrics') 
+
+FineTuningJobEvent(id='ftevent-tMDeOTswCGKDKcuTExklajtk', created_at=1743051144, level='info', message='Step 148/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 148, 'train_loss': 0.000255584716796875, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-saR426RX6v0WfgL0IwhKTHU1', created_at=1743051142, level='info', message='Step 147/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 147, 'train_loss': 0.07334451377391815, 'total_steps': 165, 'train_mean_token_accuracy': 0.9814385175704956}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-V6YaktdAJtDU5gS4u93hMkmg', created_at=1743051140, level='info', message='Step 146/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 146, 'train_loss': 0.04904796555638313, 'total_steps': 165, 'train_mean_token_accuracy': 0.9895287752151489}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-mJLmHBurUYlGvUsuEBZPAz0C', created_at=1743051138, level='info', message='Step 145/165: training loss=0.17', object='fine_tuning.job.event', data={'step': 145, 'train_loss': 0.1682770997285843, 'total_steps': 165, 'train_mean_token_accuracy': 0.9539951682090759}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-pIGHt5FQwJe54HRKbuNxdI66', created_at=1743051138, level='info', message='Step 144/165: training loss=0.09', object='fine_tuning.job.event', data={'step': 144, 'train_loss': 0.08952532708644867, 'total_steps': 165, 'train_mean_token_accuracy': 0.9715909361839294}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-KeU2yeedkGmvcJ56hDyjiKUk', created_at=1743051136, level='info', message='Step 143/165: training loss=0.13', object='fine_tuning.job.event', data={'step': 143, 'train_loss': 0.1317654550075531, 'total_steps': 165, 'train_mean_token_accuracy': 0.9714912176132202}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-TvT1sDMKous2fPjHGymFFio6', created_at=1743051134, level='info', message='Step 142/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 142, 'train_loss': 0.002568475902080536, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-fW7kiUmQ7nLgKW8O2naGeWcF', created_at=1743051132, level='info', message='Step 141/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 141, 'train_loss': 0.0074318707920610905, 'total_steps': 165, 'train_mean_token_accuracy': 0.9975786805152893}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Cr0DjYU7mrwPrkylmKJxGWIP', created_at=1743051132, level='info', message='Step 140/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 140, 'train_loss': 0.000794549414422363, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-RUHqjB3KBEgij4hRGmf617w7', created_at=1743051130, level='info', message='Step 139/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 139, 'train_loss': 0.004683925770223141, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-otssWJkG2bqxmvoHnFYR9DLV', created_at=1743051128, level='info', message='Step 138/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 138, 'train_loss': 0.12060260027647018, 'total_steps': 165, 'train_mean_token_accuracy': 0.9643312096595764}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-R4IMjJRrJYeiPSfzhyjhxc7z', created_at=1743051126, level='info', message='Step 137/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 137, 'train_loss': 0.0007320901495404541, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-JPBum2eqhRECvB0e1rDDso01', created_at=1743051124, level='info', message='Step 136/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 136, 'train_loss': 0.07897792011499405, 'total_steps': 165, 'train_mean_token_accuracy': 0.9794628620147705}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-uYsJdIDvmnzhdrmfreyO24ip', created_at=1743051124, level='info', message='Step 135/165: training loss=0.03', object='fine_tuning.job.event', data={'step': 135, 'train_loss': 0.03157955780625343, 'total_steps': 165, 'train_mean_token_accuracy': 0.991919219493866}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Ly8vs9CpLblP8LsIlwQpkY3r', created_at=1743051122, level='info', message='Step 134/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 134, 'train_loss': 0.023229800164699554, 'total_steps': 165, 'train_mean_token_accuracy': 0.9983713626861572}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-9UScAy4ZiUxxhpKKDxOzlFpK', created_at=1743051120, level='info', message='Step 133/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 133, 'train_loss': 0.01051634456962347, 'total_steps': 165, 'train_mean_token_accuracy': 0.9970930218696594}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-4l880vnOeDkxMAolufBg008x', created_at=1743051118, level='info', message='Step 132/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 132, 'train_loss': 0.0018730817828327417, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-5v4661rCUcKVfk2RXU91YPvN', created_at=1743051116, level='info', message='Step 131/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 131, 'train_loss': 0.0009772259509190917, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-2EPFvLyQ7IzDaiBMRTfErLx7', created_at=1743051116, level='info', message='Step 130/165: training loss=0.03', object='fine_tuning.job.event', data={'step': 130, 'train_loss': 0.03274758905172348, 'total_steps': 165, 'train_mean_token_accuracy': 0.9937369227409363}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-kv7aCEr0IvaeaC14YY9u0TI6', created_at=1743051114, level='info', message='Step 129/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 129, 'train_loss': 0.03928310424089432, 'total_steps': 165, 'train_mean_token_accuracy': 0.9912023544311523}, type='metrics') 
+
+FineTuningJobEvent(id='ftevent-22BGl11pz3SIOIX9k1KYCqjt', created_at=1743051112, level='info', message='Step 128/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 128, 'train_loss': 0.01896044984459877, 'total_steps': 165, 'train_mean_token_accuracy': 0.9955752491950989}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-WW2UH83uT72soxJ2GcgbOzDY', created_at=1743051110, level='info', message='Step 127/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 127, 'train_loss': 0.0809418186545372, 'total_steps': 165, 'train_mean_token_accuracy': 0.9800994992256165}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-eWsWx4OX70ps0S9zgeq2YgkE', created_at=1743051108, level='info', message='Step 126/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 126, 'train_loss': 0.05281226336956024, 'total_steps': 165, 'train_mean_token_accuracy': 0.9940652847290039}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-vNQgikdeGaFllk17fhZ6JEMz', created_at=1743051108, level='info', message='Step 125/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 125, 'train_loss': 0.0458843968808651, 'total_steps': 165, 'train_mean_token_accuracy': 0.9918200373649597}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-tct2P8g1rj1UUbLd2XX1aV9h', created_at=1743051105, level='info', message='Step 124/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 124, 'train_loss': 0.0689542144536972, 'total_steps': 165, 'train_mean_token_accuracy': 0.9868203997612}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-jtfnZJP8iVtFltvv5ODl5u0V', created_at=1743051103, level='info', message='Step 123/165: training loss=0.15', object='fine_tuning.job.event', data={'step': 123, 'train_loss': 0.14757594466209412, 'total_steps': 165, 'train_mean_token_accuracy': 0.9609164595603943}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-zjiyd7v73J3kYqeRSfpsq01Y', created_at=1743051101, level='info', message='Step 122/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 122, 'train_loss': 0.05251464247703552, 'total_steps': 165, 'train_mean_token_accuracy': 0.9873417615890503}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-jIj46TSdYd09vR8BCitnixgU', created_at=1743051101, level='info', message='Step 121/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 121, 'train_loss': 0.0003053416439797729, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-0QfxZX8e2GGrX9EqidcZs9J7', created_at=1743051099, level='info', message='Step 120/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 120, 'train_loss': 0.03509887307882309, 'total_steps': 165, 'train_mean_token_accuracy': 0.9918830990791321}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Cxi1WsTzeBnV424Lo0kiXBF5', created_at=1743051097, level='info', message='Step 119/165: training loss=0.09', object='fine_tuning.job.event', data={'step': 119, 'train_loss': 0.09057760238647461, 'total_steps': 165, 'train_mean_token_accuracy': 0.9905660152435303}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-QH3Tb8V7llFqjyEtoqx0ai7T', created_at=1743051095, level='info', message='Step 118/165: training loss=0.13', object='fine_tuning.job.event', data={'step': 118, 'train_loss': 0.12832467257976532, 'total_steps': 165, 'train_mean_token_accuracy': 0.9771987199783325}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-9SgYthyRI3FJRsoycPisbM4k', created_at=1743051093, level='info', message='Step 117/165: training loss=0.03', object='fine_tuning.job.event', data={'step': 117, 'train_loss': 0.028285417705774307, 'total_steps': 165, 'train_mean_token_accuracy': 0.9931507110595703}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-B9SWlq5B0ZWCMqVYLhK0CzJJ', created_at=1743051093, level='info', message='Step 116/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 116, 'train_loss': 0.080144964158535, 'total_steps': 165, 'train_mean_token_accuracy': 0.9888888597488403}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ML4HYa4cyIiJg0sBhWpQmo6H', created_at=1743051091, level='info', message='Step 115/165: training loss=0.15', object='fine_tuning.job.event', data={'step': 115, 'train_loss': 0.14963789284229279, 'total_steps': 165, 'train_mean_token_accuracy': 0.9721115827560425}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-7wXAraT2Rjl3OfmgVW2fifzt', created_at=1743051089, level='info', message='Step 114/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 114, 'train_loss': 0.024043265730142593, 'total_steps': 165, 'train_mean_token_accuracy': 0.996632993221283}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-oRYmCiANxFzpyFdsk1apx29J', created_at=1743051087, level='info', message='Step 113/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 113, 'train_loss': 0.07599827647209167, 'total_steps': 165, 'train_mean_token_accuracy': 0.9755434989929199}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-9B55Vqe1YDLQuL7yykRkkqai', created_at=1743051085, level='info', message='Step 112/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 112, 'train_loss': 0.014133919030427933, 'total_steps': 165, 'train_mean_token_accuracy': 0.9981203079223633}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-7wv2lsenypHO1sLgnuAcBXEQ', created_at=1743051085, level='info', message='Step 111/165: training loss=0.03', object='fine_tuning.job.event', data={'step': 111, 'train_loss': 0.02806682139635086, 'total_steps': 165, 'train_mean_token_accuracy': 0.9920844435691833}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-akJzTnYiaciEzCOkHrcQ7KYI', created_at=1743051081, level='info', message='Step 110/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 110, 'train_loss': 0.0004524562682490796, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-5bFRwclzukF1xI0VcCmGbTcu', created_at=1743051079, level='info', message='Step 109/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 109, 'train_loss': 0.011219549924135208, 'total_steps': 165, 'train_mean_token_accuracy': 0.9970059990882874}, type='metrics') 
+
+FineTuningJobEvent(id='ftevent-et5xfkOc8YetbeH9TbLpbWnQ', created_at=1743051077, level='info', message='Step 108/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 108, 'train_loss': 0.022132040932774544, 'total_steps': 165, 'train_mean_token_accuracy': 0.9941860437393188}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-BPc5OamgBTRNlJJxuxynvJSL', created_at=1743051077, level='info', message='Step 107/165: training loss=0.22', object='fine_tuning.job.event', data={'step': 107, 'train_loss': 0.2235955148935318, 'total_steps': 165, 'train_mean_token_accuracy': 0.937901496887207}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-bdABljERXTgWs6bpQT2VC31b', created_at=1743051075, level='info', message='Step 106/165: training loss=0.19', object='fine_tuning.job.event', data={'step': 106, 'train_loss': 0.1909215897321701, 'total_steps': 165, 'train_mean_token_accuracy': 0.9443099498748779}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-H7NB7YGbBwGXqwXMm5bQIUKb', created_at=1743051073, level='info', message='Step 105/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 105, 'train_loss': 0.0049424744211137295, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-EqBOHfobEewxr2dJxxo49Pb4', created_at=1743051071, level='info', message='Step 104/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 104, 'train_loss': 0.021582739427685738, 'total_steps': 165, 'train_mean_token_accuracy': 0.990314781665802}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-7GjgfsaeRdNejKzMx2yxgK2Q', created_at=1743051069, level='info', message='Step 103/165: training loss=0.06', object='fine_tuning.job.event', data={'step': 103, 'train_loss': 0.06476407498121262, 'total_steps': 165, 'train_mean_token_accuracy': 0.9791231751441956}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-QDwJrQf5N6Y6UV7dThAWAZRb', created_at=1743051069, level='info', message='Step 102/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 102, 'train_loss': 0.03866029158234596, 'total_steps': 165, 'train_mean_token_accuracy': 0.9918566942214966}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-WGoTqCwHiFfCTOwRFI7sqxpg', created_at=1743051067, level='info', message='Step 101/165: training loss=0.06', object='fine_tuning.job.event', data={'step': 101, 'train_loss': 0.06356368958950043, 'total_steps': 165, 'train_mean_token_accuracy': 0.9869494438171387}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-vV9lMN43Y6uM00Pugaszu2DO', created_at=1743051065, level='info', message='Step 100/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 100, 'train_loss': 0.07164377719163895, 'total_steps': 165, 'train_mean_token_accuracy': 0.9851632118225098}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-w20j5B3hJ2TzDXQGl1HGWNjb', created_at=1743051063, level='info', message='Step 99/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 99, 'train_loss': 0.06834261864423752, 'total_steps': 165, 'train_mean_token_accuracy': 0.9842932224273682}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-vNNoptC5Bg9aBqdTUNzqaB1k', created_at=1743051061, level='info', message='Step 98/165: training loss=0.17', object='fine_tuning.job.event', data={'step': 98, 'train_loss': 0.16962993144989014, 'total_steps': 165, 'train_mean_token_accuracy': 0.9674267172813416}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-PRsKCjVXMQEe89rbmx0JFbln', created_at=1743051061, level='info', message='Step 97/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 97, 'train_loss': 0.02262137085199356, 'total_steps': 165, 'train_mean_token_accuracy': 0.9934782385826111}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-SYHFUkHE7ctnKupEltnRcW42', created_at=1743051059, level='info', message='Step 96/165: training loss=0.10', object='fine_tuning.job.event', data={'step': 96, 'train_loss': 0.10013565421104431, 'total_steps': 165, 'train_mean_token_accuracy': 0.9752883315086365}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-3XM5CoMz1djg0PYb64KYuOEm', created_at=1743051057, level='info', message='Step 95/165: training loss=0.06', object='fine_tuning.job.event', data={'step': 95, 'train_loss': 0.06158003211021423, 'total_steps': 165, 'train_mean_token_accuracy': 0.9833333492279053}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-EQ4dEIwE5m7yP87uwA0a1U7Q', created_at=1743051055, level='info', message='Step 94/165: training loss=0.14', object='fine_tuning.job.event', data={'step': 94, 'train_loss': 0.13946276903152466, 'total_steps': 165, 'train_mean_token_accuracy': 0.9748427867889404}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-GNFEnu5cGtqZn7pBEsHnczUB', created_at=1743051052, level='info', message='Step 93/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 93, 'train_loss': 0.049137506633996964, 'total_steps': 165, 'train_mean_token_accuracy': 0.9902597665786743}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-hPvbd3U1sIN3BoiEoNUas1q4', created_at=1743051052, level='info', message='Step 92/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 92, 'train_loss': 0.0383344367146492, 'total_steps': 165, 'train_mean_token_accuracy': 0.9867256879806519}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-AajLqR75y8AJqZtsZ015E0yn', created_at=1743051050, level='info', message='Step 91/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 91, 'train_loss': 0.11622592061758041, 'total_steps': 165, 'train_mean_token_accuracy': 0.9750000238418579}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-5nm77IzSshWDXne6aoXQM59O', created_at=1743051048, level='info', message='Step 90/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 90, 'train_loss': 0.06976191699504852, 'total_steps': 165, 'train_mean_token_accuracy': 0.982332170009613}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-b6U5kBuVCVda0eYIxijEH12j', created_at=1743051046, level='info', message='Step 89/165: training loss=0.26', object='fine_tuning.job.event', data={'step': 89, 'train_loss': 0.2620503008365631, 'total_steps': 165, 'train_mean_token_accuracy': 0.9288026094436646}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-L0PJ0s3cI4u95SUUIvudrabj', created_at=1743051046, level='info', message='Step 88/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 88, 'train_loss': 0.00017573112563695759, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Hvb8fDqMakswccRKKOzcOYUd', created_at=1743051044, level='info', message='Step 87/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 87, 'train_loss': 0.0013124217512086034, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-MI0b6G9ZWtDel8Q8yGMQVfd0', created_at=1743051042, level='info', message='Step 86/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 86, 'train_loss': 0.012559833936393261, 'total_steps': 165, 'train_mean_token_accuracy': 0.9936034083366394}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-yIqMkIvJ8sHBaY0QJSdhA2ZU', created_at=1743051040, level='info', message='Step 85/165: training loss=0.06', object='fine_tuning.job.event', data={'step': 85, 'train_loss': 0.06268876791000366, 'total_steps': 165, 'train_mean_token_accuracy': 0.9818181991577148}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-TBgYNMixWrezUgDEHvTAlHUX', created_at=1743051038, level='info', message='Step 84/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 84, 'train_loss': 0.11880050599575043, 'total_steps': 165, 'train_mean_token_accuracy': 0.953596293926239}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-8RuEB01q0MFGs9PBnUOB5YAT', created_at=1743051036, level='info', message='Step 83/165: training loss=0.19', object='fine_tuning.job.event', data={'step': 83, 'train_loss': 0.1897021234035492, 'total_steps': 165, 'train_mean_token_accuracy': 0.9621514081954956}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-cEXuPOnsGxFxjxAs5Llq4dB5', created_at=1743051036, level='info', message='Step 82/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 82, 'train_loss': 0.07649467140436172, 'total_steps': 165, 'train_mean_token_accuracy': 0.9913544654846191}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-7wBuIp1AEpjfKopPpzrDvS4o', created_at=1743051034, level='info', message='Step 81/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 81, 'train_loss': 0.000229193945415318, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-y0Np9Y9i55EOZSc9dOkFVyCH', created_at=1743051032, level='info', message='Step 80/165: training loss=0.19', object='fine_tuning.job.event', data={'step': 80, 'train_loss': 0.18556827306747437, 'total_steps': 165, 'train_mean_token_accuracy': 0.9472476840019226}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-BhZtJ60ec9cmY9A1RnAkPsVi', created_at=1743051030, level='info', message='Step 79/165: training loss=0.14', object='fine_tuning.job.event', data={'step': 79, 'train_loss': 0.139144167304039, 'total_steps': 165, 'train_mean_token_accuracy': 0.9589040875434875}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-XlA6FlPaAM5A3cjGIOZ2zvk5', created_at=1743051028, level='info', message='Step 78/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 78, 'train_loss': 0.019290899857878685, 'total_steps': 165, 'train_mean_token_accuracy': 0.9958847761154175}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-2eYtUJ1jfHqqUQ636lrWyXHj', created_at=1743051026, level='info', message='Step 77/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 77, 'train_loss': 0.0032444
+
+FineTuningJobEvent(id='ftevent-ysoObyNx0WdDUFwdMSKpJpbw', created_at=1743051026, level='info', message='Step 76/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 76, 'train_loss': 0.02162487804889679, 'total_steps': 165, 'train_mean_token_accuracy': 0.9931507110595703}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-aTDUAHBfnDyjh395RiA4WXgo', created_at=1743051024, level='info', message='Step 75/165: training loss=0.03', object='fine_tuning.job.event', data={'step': 75, 'train_loss': 0.03470126539468765, 'total_steps': 165, 'train_mean_token_accuracy': 0.9949495196342468}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-kUXje6bErCwHtH0ZflZ7zE9R', created_at=1743051022, level='info', message='Step 74/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 74, 'train_loss': 0.11761165410280228, 'total_steps': 165, 'train_mean_token_accuracy': 0.9646739363670349}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-7FDzgZhUPryi0cWfZp8lOvAW', created_at=1743051020, level='info', message='Step 73/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 73, 'train_loss': 0.04306056722998619, 'total_steps': 165, 'train_mean_token_accuracy': 0.9849108457565308}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Y2SCn2ixE0BQCbQj7q9biYhc', created_at=1743051018, level='info', message='Step 72/165: training loss=0.11', object='fine_tuning.job.event', data={'step': 72, 'train_loss': 0.1114421859383583, 'total_steps': 165, 'train_mean_token_accuracy': 0.9701492786407471}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-iJUj9d856nDWeF0RF7Mqfy8Q', created_at=1743051018, level='info', message='Step 71/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 71, 'train_loss': 0.05104139819741249, 'total_steps': 165, 'train_mean_token_accuracy': 0.9841688871383667}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-S2NaEGrgCGJ1EilD4YlYZwl2', created_at=1743051016, level='info', message='Step 70/165: training loss=0.17', object='fine_tuning.job.event', data={'step': 70, 'train_loss': 0.16513584554195404, 'total_steps': 165, 'train_mean_token_accuracy': 0.9566879272460938}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-BFNb8CczRFgsK4B9hnG5KYbu', created_at=1743051014, level='info', message='Step 69/165: training loss=0.01', object='fine_tuning.job.event', data={'step': 69, 'train_loss': 0.012395646423101425, 'total_steps': 165, 'train_mean_token_accuracy': 0.9971510171890259}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-YBjVvwkdqUWtk2llsk7vhKcK', created_at=1743051012, level='info', message='Step 68/165: training loss=0.16', object='fine_tuning.job.event', data={'step': 68, 'train_loss': 0.16239912807941437, 'total_steps': 165, 'train_mean_token_accuracy': 0.9649122953414917}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-QkuJyc65Up3SYoCTzPisF0rr', created_at=1743051012, level='info', message='Step 67/165: training loss=0.02', object='fine_tuning.job.event', data={'step': 67, 'train_loss': 0.02491992525756359, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-mzxhjU6UqH5kOtTY7yV91qg6', created_at=1743051010, level='info', message='Step 66/165: training loss=0.14', object='fine_tuning.job.event', data={'step': 66, 'train_loss': 0.1366310715675354, 'total_steps': 165, 'train_mean_token_accuracy': 0.9650872945785522}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ARHIwRWINqvk79RVMQEwfRkF', created_at=1743051008, level='info', message='Step 65/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 65, 'train_loss': 0.036886297166347504, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-PseYR8ZQY03PiKIiO9MMj1ml', created_at=1743051006, level='info', message='Step 64/165: training loss=0.13', object='fine_tuning.job.event', data={'step': 64, 'train_loss': 0.12601710855960846, 'total_steps': 165, 'train_mean_token_accuracy': 0.9652448892593384}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-plwgLKiDNHiQVMUyhJ15ufkp', created_at=1743051004, level='info', message='Step 63/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 63, 'train_loss': 0.03714150935411453, 'total_steps': 165, 'train_mean_token_accuracy': 0.988304078578949}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ZxpiFHowri0gX3dzLtLFRiYz', created_at=1743051004, level='info', message='Step 62/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 62, 'train_loss': 0.07964517176151276, 'total_steps': 165, 'train_mean_token_accuracy': 0.9797468185424805}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Q2krOUCBipQDC53B8BOc4Pwl', created_at=1743051000, level='info', message='Step 61/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 61, 'train_loss': 0.0721016600728035, 'total_steps': 165, 'train_mean_token_accuracy': 0.9838709831237793}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-oIaFeTpzqGqp39QiPB4rLt0B', created_at=1743051000, level='info', message='Step 60/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 60, 'train_loss': 0.04922958090901375, 'total_steps': 165, 'train_mean_token_accuracy': 0.9887217879295349}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Yk94zh2tD4EBl2OojdHuxDvR', created_at=1743050997, level='info', message='Step 59/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 59, 'train_loss': 0.04575488716363907, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-p4rh4wYGQtbe9uPXNeYlZSQ4', created_at=1743050995, level='info', message='Step 58/165: training loss=0.15', object='fine_tuning.job.event', data={'step': 58, 'train_loss': 0.1452479213476181, 'total_steps': 165, 'train_mean_token_accuracy': 0.9573863744735718}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-JscIc8a3GQVRusCLMeUS8cm2', created_at=1743050993, level='info', message='Step 57/165: training loss=0.10', object='fine_tuning.job.event', data={'step': 57, 'train_loss': 0.09622674435377121, 'total_steps': 165, 'train_mean_token_accuracy': 0.977505087852478}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-X1mWbbcn7EZiCicFA0kK2vE1', created_at=1743050991, level='info', message='Step 56/165: training loss=0.21', object='fine_tuning.job.event', data={'step': 56, 'train_loss': 0.2148335874080658, 'total_steps': 165, 'train_mean_token_accuracy': 0.9528301954269409}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-9fxqrmjHdVUQyN5AHxhm8VAs', created_at=1743050987, level='info', message='Step 55/165: training loss=0.25', object='fine_tuning.job.event', data={'step': 55, 'train_loss': 0.24880379438400269, 'total_steps': 165, 'train_mean_token_accuracy': 0.9380733966827393}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-cmTRcxQSVOmH7I88RzKHMvp0', created_at=1743050985, level='info', message='Step 54/165: training loss=0.16', object='fine_tuning.job.event', data={'step': 54, 'train_loss': 0.16417281329631805, 'total_steps': 165, 'train_mean_token_accuracy': 0.9510869383811951}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-upmiiOKQ4iDv0y0CAJMx4rhW', created_at=1743050985, level='info', message='Step 53/165: training loss=0.37', object='fine_tuning.job.event', data={'step': 53, 'train_loss': 0.3689950108528137, 'total_steps': 165, 'train_mean_token_accuracy': 0.9061488509178162}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Rl6Upsbh1TwyGMxUupVxgqyG', created_at=1743050983, level='info', message='Step 52/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 52, 'train_loss': 0.07068216800689697, 'total_steps': 165, 'train_mean_token_accuracy': 0.9807956218719482}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-fqmkFZiduWmijbApymw3ijd6', created_at=1743050981, level='info', message='Step 51/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 51, 'train_loss': 0.003155222861096263, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-zW7rNzb8KGMbv1UdTTQZ04bJ', created_at=1743050979, level='info', message='Step 50/165: training loss=0.11', object='fine_tuning.job.event', data={'step': 50, 'train_loss': 0.1120593473315239, 'total_steps': 165, 'train_mean_token_accuracy': 0.9690265655517578}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-bof4sebQHbHbmdlSz2SMwonQ', created_at=1743050977, level='info', message='Step 49/165: training loss=0.18', object='fine_tuning.job.event', data={'step': 49, 'train_loss': 0.1792079210281372, 'total_steps': 165, 'train_mean_token_accuracy': 0.95652174949646}, type='metrics') 
+
+FineTuningJobEvent(id='ftevent-xCE75AFhgPz0OfwCGe9GqUIg', created_at=1743050967, level='info', message='Step 48/165: training loss=0.24', object='fine_tuning.job.event', data={'step': 48, 'train_loss': 0.23837223649024963, 'total_steps': 165, 'train_mean_token_accuracy': 0.9401273727416992}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Ni6Ib4O9P57WDEmtKuUrDefz', created_at=1743050965, level='info', message='Step 47/165: training loss=0.09', object='fine_tuning.job.event', data={'step': 47, 'train_loss': 0.08903239667415619, 'total_steps': 165, 'train_mean_token_accuracy': 0.9771987199783325}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-hX2Si9gJtEmQVSTND27PpDuC', created_at=1743050963, level='info', message='Step 46/165: training loss=0.10', object='fine_tuning.job.event', data={'step': 46, 'train_loss': 0.10215772688388824, 'total_steps': 165, 'train_mean_token_accuracy': 0.9767441749572754}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-28LV0fHQjAV2PYD9ts4Yy3Ho', created_at=1743050953, level='info', message='Step 45/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 45, 'train_loss': 0.11759823560714722, 'total_steps': 165, 'train_mean_token_accuracy': 0.9717171788215637}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-XUDMoPLqsqE8I8Ac9a26IZVP', created_at=1743050951, level='info', message='Step 44/165: training loss=0.09', object='fine_tuning.job.event', data={'step': 44, 'train_loss': 0.08919478207826614, 'total_steps': 165, 'train_mean_token_accuracy': 0.9788918495178223}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-eIrbnnmMMnSNoGkWDLdaxTxF', created_at=1743050942, level='info', message='Step 43/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 43, 'train_loss': 0.07989391684532166, 'total_steps': 165, 'train_mean_token_accuracy': 0.9795321822166443}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-21NS6799xok9S0JcLGvpyHy2', created_at=1743050940, level='info', message='Step 42/165: training loss=0.13', object='fine_tuning.job.event', data={'step': 42, 'train_loss': 0.13439957797527313, 'total_steps': 165, 'train_mean_token_accuracy': 0.9686985015869141}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-jBhiNyjTFmDKd0b2VBAUyvGc', created_at=1743050932, level='info', message='Step 41/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 41, 'train_loss': 0.11637020111083984, 'total_steps': 165, 'train_mean_token_accuracy': 0.9706745147705078}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-eGw9QS1WNK0pjpduuFGwa831', created_at=1743050930, level='info', message='Step 40/165: training loss=0.19', object='fine_tuning.job.event', data={'step': 40, 'train_loss': 0.19260185956954956, 'total_steps': 165, 'train_mean_token_accuracy': 0.9478672742843628}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-MD38jq90juhUu3bQ1wttHnp1', created_at=1743050928, level='info', message='Step 39/165: training loss=0.21', object='fine_tuning.job.event', data={'step': 39, 'train_loss': 0.21359504759311676, 'total_steps': 165, 'train_mean_token_accuracy': 0.9545454382896423}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Hjqk6fA0E6kk8nMpdauwasXb', created_at=1743050926, level='info', message='Step 38/165: training loss=0.08', object='fine_tuning.job.event', data={'step': 38, 'train_loss': 0.07502661645412445, 'total_steps': 165, 'train_mean_token_accuracy': 0.9913544654846191}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ffJUUoV4oSZZZSzI6jGIdL1m', created_at=1743050924, level='info', message='Step 37/165: training loss=0.28', object='fine_tuning.job.event', data={'step': 37, 'train_loss': 0.2780604958534241, 'total_steps': 165, 'train_mean_token_accuracy': 0.955974817276001}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-EGsE2McQHkbCyevRz8WoZ3o9', created_at=1743050922, level='info', message='Step 36/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 36, 'train_loss': 0.050415534526109695, 'total_steps': 165, 'train_mean_token_accuracy': 0.9898989796638489}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-eq9z0arWyg4G2S8zbuarmUV6', created_at=1743050920, level='info', message='Step 35/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 35, 'train_loss': 0.12066017836332321, 'total_steps': 165, 'train_mean_token_accuracy': 0.9718044996261597}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-LLTOIY7lJhYslByarmyM7AoC', created_at=1743050918, level='info', message='Step 34/165: training loss=0.19', object='fine_tuning.job.event', data={'step': 34, 'train_loss': 0.19100654125213623, 'total_steps': 165, 'train_mean_token_accuracy': 0.9570552110671997}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-bKpw2jBrvY0oAfGX4ik88g99', created_at=1743050910, level='info', message='Step 33/165: training loss=0.04', object='fine_tuning.job.event', data={'step': 33, 'train_loss': 0.03599207475781441, 'total_steps': 165, 'train_mean_token_accuracy': 0.9940119981765747}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-XawwkoYOHW5GEQY4GMjcHCEm', created_at=1743050900, level='info', message='Step 32/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 32, 'train_loss': 0.06711006909608841, 'total_steps': 165, 'train_mean_token_accuracy': 0.9850746393203735}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ZOeds1HX1ysiI5c8O0e8fdbZ', created_at=1743050898, level='info', message='Step 31/165: training loss=0.11', object='fine_tuning.job.event', data={'step': 31, 'train_loss': 0.11344823986291885, 'total_steps': 165, 'train_mean_token_accuracy': 0.9685863852500916}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-z7krQzDd59RJlCkVkUFLKu0f', created_at=1743050889, level='info', message='Step 30/165: training loss=0.43', object='fine_tuning.job.event', data={'step': 30, 'train_loss': 0.4341539144515991, 'total_steps': 165, 'train_mean_token_accuracy': 0.8835616707801819}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ZRq7Sgqo54acBqtC0FcwFdL8', created_at=1743050879, level='info', message='Step 29/165: training loss=0.07', object='fine_tuning.job.event', data={'step': 29, 'train_loss': 0.07301884144544601, 'total_steps': 165, 'train_mean_token_accuracy': 0.9726027250289917}, type='metrics') 
+
+FineTuningJobEvent(id='ftevent-gYbC8IWDYBMAPVimoAM01PlP', created_at=1743050877, level='info', message='Step 28/165: training loss=0.32', object='fine_tuning.job.event', data={'step': 28, 'train_loss': 0.31517162919044495, 'total_steps': 165, 'train_mean_token_accuracy': 0.9380053877830505}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-6fVBySYgAIceWi1qiuFjsUTE', created_at=1743050875, level='info', message='Step 27/165: training loss=0.23', object='fine_tuning.job.event', data={'step': 27, 'train_loss': 0.2280394732952118, 'total_steps': 165, 'train_mean_token_accuracy': 0.9478079080581665}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-GIKTmdCYpbpgmQYlnir2kRMn', created_at=1743050865, level='info', message='Step 26/165: training loss=0.78', object='fine_tuning.job.event', data={'step': 26, 'train_loss': 0.776434600353241, 'total_steps': 165, 'train_mean_token_accuracy': 0.8260869383811951}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-b19mAYaBnsPQ6ReZpFPkFHCj', created_at=1743050855, level='info', message='Step 25/165: training loss=0.05', object='fine_tuning.job.event', data={'step': 25, 'train_loss': 0.0455658994615078, 'total_steps': 165, 'train_mean_token_accuracy': 0.9857549667358398}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-HWpFJvjtO0ErltAc6EgXbt7f', created_at=1743050853, level='info', message='Step 24/165: training loss=1.04', object='fine_tuning.job.event', data={'step': 24, 'train_loss': 1.043881893157959, 'total_steps': 165, 'train_mean_token_accuracy': 0.695652186870575}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-OVejUsbs1LFtWx5HKSJFCXgA', created_at=1743050843, level='info', message='Step 23/165: training loss=0.22', object='fine_tuning.job.event', data={'step': 23, 'train_loss': 0.22354480624198914, 'total_steps': 165, 'train_mean_token_accuracy': 0.9327146410942078}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-1fqOatdHb42pZa1WHIZamxpD', created_at=1743050841, level='info', message='Step 22/165: training loss=1.16', object='fine_tuning.job.event', data={'step': 22, 'train_loss': 1.1593421697616577, 'total_steps': 165, 'train_mean_token_accuracy': 0.739130437374115}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-D2CpF1dVwUyHaQzsbBtDrPnm', created_at=1743050839, level='info', message='Step 21/165: training loss=0.31', object='fine_tuning.job.event', data={'step': 21, 'train_loss': 0.3097434341907501, 'total_steps': 165, 'train_mean_token_accuracy': 0.93824702501297}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-iPg0MRsqsSw1qHP6xl72ulPP', created_at=1743050838, level='info', message='Step 20/165: training loss=0.27', object='fine_tuning.job.event', data={'step': 20, 'train_loss': 0.2706541121006012, 'total_steps': 165, 'train_mean_token_accuracy': 0.9385964870452881}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-Mok0gtdvtWDWeem4KTIjpywh', created_at=1743050836, level='info', message='Step 19/165: training loss=1.49', object='fine_tuning.job.event', data={'step': 19, 'train_loss': 1.487714409828186, 'total_steps': 165, 'train_mean_token_accuracy': 0.695652186870575}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-IXOEsQpOc3eFkInkivRXpdug', created_at=1743050828, level='info', message='Step 18/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 18, 'train_loss': 0.11897296458482742, 'total_steps': 165, 'train_mean_token_accuracy': 0.9691558480262756}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-fFFx3zIkdDkWEOYM2uWRg3Mh', created_at=1743050824, level='info', message='Step 17/165: training loss=0.25', object='fine_tuning.job.event', data={'step': 17, 'train_loss': 0.2540498375892639, 'total_steps': 165, 'train_mean_token_accuracy': 0.9501246809959412}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-aF83MC370ltxPpMliB8UpHnr', created_at=1743050824, level='info', message='Step 16/165: training loss=0.36', object='fine_tuning.job.event', data={'step': 16, 'train_loss': 0.35878127813339233, 'total_steps': 165, 'train_mean_token_accuracy': 0.9273607730865479}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-PCW6qbcBSZVmIFEIypTPJeFc', created_at=1743050814, level='info', message='Step 15/165: training loss=0.12', object='fine_tuning.job.event', data={'step': 15, 'train_loss': 0.11884310841560364, 'total_steps': 165, 'train_mean_token_accuracy': 0.9670782089233398}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-MxClsspN59hrHgCjE8PVinbh', created_at=1743050804, level='info', message='Step 14/165: training loss=0.25', object='fine_tuning.job.event', data={'step': 14, 'train_loss': 0.24518926441669464, 'total_steps': 165, 'train_mean_token_accuracy': 0.9612590670585632}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-QcoDadqw2xWlFsJWjOnfmvcI', created_at=1743050792, level='info', message='Step 13/165: training loss=0.23', object='fine_tuning.job.event', data={'step': 13, 'train_loss': 0.23282960057258606, 'total_steps': 165, 'train_mean_token_accuracy': 0.9666666388511658}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-ZpHaioHnSOCMXCDCrwMIJaIz', created_at=1743050782, level='info', message='Step 12/165: training loss=0.14', object='fine_tuning.job.event', data={'step': 12, 'train_loss': 0.13598129153251648, 'total_steps': 165, 'train_mean_token_accuracy': 0.977142870426178}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-anFsNjtCMYMF1XNaYMe3hmLY', created_at=1743050780, level='info', message='Step 11/165: training loss=0.00', object='fine_tuning.job.event', data={'step': 11, 'train_loss': 0.00034123798832297325, 'total_steps': 165, 'train_mean_token_accuracy': 1.0}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-5ugE4nDfCXhJ9BXJQnc7VRh2', created_at=1743050769, level='info', message='Step 10/165: training loss=0.46', object='fine_tuning.job.event', data={'step': 10, 'train_loss': 0.45735353231430054, 'total_steps': 165, 'train_mean_token_accuracy': 0.9347180724143982}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-eJ9p7lViKOPAUu8kCUtWdUCA', created_at=1743050767, level='info', message='Step 9/165: training loss=0.57', object='fine_tuning.job.event', data={'step': 9, 'train_loss': 0.5685590505599976, 'total_steps': 165, 'train_mean_token_accuracy': 0.9111111164093018}, type='metrics') 
+
+FineTuningJobEvent(id='ftevent-x3arIHCUY4y5mHmfPTIh3Edt', created_at=1743050757, level='info', message='Step 8/165: training loss=0.31', object='fine_tuning.job.event', data={'step': 8, 'train_loss': 0.30793020129203796, 'total_steps': 165, 'train_mean_token_accuracy': 0.9518987536430359}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-9q44Zpfw70SkYbPPS2tr31yo', created_at=1743050755, level='info', message='Step 7/165: training loss=0.36', object='fine_tuning.job.event', data={'step': 7, 'train_loss': 0.36307549476623535, 'total_steps': 165, 'train_mean_token_accuracy': 0.9461663961410522}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-FRZf8pb5bDqDLijqyDdv0PUH', created_at=1743050753, level='info', message='Step 6/165: training loss=0.25', object='fine_tuning.job.event', data={'step': 6, 'train_loss': 0.2543131411075592, 'total_steps': 165, 'train_mean_token_accuracy': 0.9521738886833191}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-UI6dc915nds2vZo6dw3LQ1eW', created_at=1743050743, level='info', message='Step 5/165: training loss=0.68', object='fine_tuning.job.event', data={'step': 5, 'train_loss': 0.6801632046699524, 'total_steps': 165, 'train_mean_token_accuracy': 0.9036402702331543}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-PHZREg1mMww577gFlvI7KA21', created_at=1743050741, level='info', message='Step 4/165: training loss=0.46', object='fine_tuning.job.event', data={'step': 4, 'train_loss': 0.46238973736763, 'total_steps': 165, 'train_mean_token_accuracy': 0.9253731369972229}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-qksmnR7iKVEFbcSMZYUHPWAw', created_at=1743050731, level='info', message='Step 3/165: training loss=0.58', object='fine_tuning.job.event', data={'step': 3, 'train_loss': 0.581659197807312, 'total_steps': 165, 'train_mean_token_accuracy': 0.9045936465263367}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-0JwbTvNa5xLEe8CK7AZg9jkF', created_at=1743050719, level='info', message='Step 2/165: training loss=0.69', object='fine_tuning.job.event', data={'step': 2, 'train_loss': 0.6914103627204895, 'total_steps': 165, 'train_mean_token_accuracy': 0.8794788122177124}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-xndg0ucmHegLeJDgFNOaIJnp', created_at=1743050706, level='info', message='Step 1/165: training loss=3.45', object='fine_tuning.job.event', data={'step': 1, 'train_loss': 3.4505395889282227, 'total_steps': 165, 'train_mean_token_accuracy': 0.5652173757553101}, type='metrics')
+
+FineTuningJobEvent(id='ftevent-SWdV79TWqIj6pufJp7elbEh0', created_at=1743050536, level='info', message='Fine-tuning job started', object='fine_tuning.job.event', data=None, type='message')
+
+FineTuningJobEvent(id='ftevent-8lVsnMdBv6tFdfqKvsM23nNy', created_at=1743050536, level='info', message='Files validated, moving job to queued state', object='fine_tuning.job.event', data={}, type='message')     
+
+FineTuningJobEvent(id='ftevent-X1rdkfHXzM0OcOR4FcXOE0M5', created_at=1743050467, level='info', message='Validating training file: file-8YY94x5RmwJjhyXE6mBeiz', object='fine_tuning.job.event', data={}, type='message')
+
+FineTuningJobEvent(id='ftevent-ttRrokUMgsagIFGlTrsrp98I', created_at=1743050467, level='info', message='Created fine-tuning job: ftjob-ytRmpOCvV8wh5N1h2tJAdrNE', object='fine_tuning.job.event', data={}, type='message')
